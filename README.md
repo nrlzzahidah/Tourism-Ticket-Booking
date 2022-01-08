@@ -34,10 +34,7 @@ For the organization flow, we have several steps in managing our organization. F
 Our website also provides a booking page which can be easily used for people especially for the one that already planned their destination to book quickly with the deals and packages provided. Further step in completing the booking part is entering the details like package type and quantity. After that, the users must make sure to do a confirmation about the accuracy of the details filled in the booking page. The steps mentioned above must be followed accordingly in order for the booking to be approved.
 
 **Project Site Map**
-  
-
-
-
+![sitemap](https://user-images.githubusercontent.com/95870144/148650021-d7c854a0-2d2b-4062-963e-0c305efa666c.jpeg)
 
 
 
