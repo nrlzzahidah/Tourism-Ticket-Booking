@@ -57,6 +57,9 @@ Our website also provides a booking page which can be easily used for people esp
 |Web Element| Name |Use of third party resources <br> and modifications (if any) | Modifications (if any) |
 | :--- | :---- | :--- | :---- | 
 |Photo |kl.jpg <br> malacca.jpg <br> pahang.jpg <br> penang.jpg <br> sarawak.jpg <br> terengganu.jpg |Taken from Google Images| -|
+|Photo  |penang1.jpg <br> sunway3.jpg<br>genting1.jpg<br>langkawi1.jpg*<br>famosa2.jpg<br>kinabalu.jpg|Taken from Google Images and resize the images|resize the pixel|
+
+
 
 
 
