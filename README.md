@@ -53,6 +53,7 @@ Our website also provides a booking page which can be easily used for people esp
 |Nur Farah Amira binti Mohd Rafidi (2011132) |Page: Home <br> Web element: navigation bar|
 |Nur Raimi binti Rahim (2014632) |Page: Destination|
 
+<br>
 
  **Use of Third Party Resources**
       
@@ -63,6 +64,7 @@ Our website also provides a booking page which can be easily used for people esp
 
 
 
+<br>
 
 **References**
 
