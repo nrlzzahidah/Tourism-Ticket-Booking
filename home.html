@@ -1,21 +1,61 @@
- <!DOCTYPE html>
-<html lang="en">
-<div class="container1">
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ <div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#about">About us</a>
+  <a href="#destinations">Destinations</a>
+    <a href="#booking">Booking</a>
+  <a href="#contact">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px; color:white;background-image:url('https://velvetescape.com/wp-content/uploads/2018/09/IMG_3823-1280x920.jpg');background-size: 90% 100%;">
+  <h1>DISCOVER MALAYSIA</h1>
+  
+  <div class="transbox1">
+  <p style= "text-align: center;">Malaysia is a Southeast Asian country occupying parts of the Malay Peninsula and the island of Borneo. It's known for its beaches, rainforests and mix of Malay, Chinese, Indian and European cultural influences. The capital, Kuala Lumpur, is home to colonial buildings, busy shopping districts.</p>
+</div>
+</div>
+
+<div class="form-header header-primary">
+      <h4 style= "text-align: center; color:#06365F"><i class='fas fa-map-marker-alt'></i> TRIP AROUND MALAYSIA</h4>
+    </div>
+    
+    <div class="coupon">
+  <div class="container1">
     <h3 style="color: white; text-align:center">Special Deals 41% only</h3>
   </div>
-  <img src="http://cf02.sdimgs.com/map/wrd/7/2_4/wrd_7_2_4_1045_1712.gif?v=1.0.1.45" alt="Avatar" style="width:90%; float:right;  margin-right: 4%" >
   <img src="http://cf02.sdimgs.com/map/wrd/7/2_4/wrd_7_2_4_1045_1712.gif?v=1.0.1.45" alt="map" style="width:90%; float:right;  margin-right: 4%" >
   <div class="container1" style="background-color:red; text-align: center"> 
     <p><br>At Melaka from RM 258.00</p>
   </div>
-@@ -46,44 +46,44 @@ <h3 style="color: white; text-align:center">Special Deals 41% only</h3>
+</div>
+    
+    <form method="post" action="/" id="booking-form">
+   <div class="places-block">
+    <label for="destination">Destinations</label>
+    <input type="text" id="places" name="place" required>
+  </div>
+  <br>
+   <div class="elem-group inlined">
+    <label for="checkin-date">Check-in Date</label>
+    <input type="date" id="checkin-date" name="checkin" required>
+  </div>
+  <div class="elem-group inlined">
+    <label for="checkout-date">Check-out Date</label>
+    <input type="date" id="checkout-date" name="checkout" required>
+  </div>
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     </form>
-
-      <h4 style= "text-align: center; color:#06365F"><i class='fas fa-map-marker-alt'></i> TRIP AROUND MALAYSIA</h4>
+    
       <h4 style= "text-align: center; color:#06365F"><i class='fas fa-map-marker-alt'></i> TOP PLACES TO VISIT</h4>
-
-    <div class="container" style=" background-image: url('http://static.asiawebdirect.com/m/kl/portals/kuala-lumpur-ws/homepage/klareas/pagePropertiesImage/kl-areas.jpg.jpg');">
+    
     <div class="container" name='kl.jpg' style=" background-image: url('http://static.asiawebdirect.com/m/kl/portals/kuala-lumpur-ws/homepage/klareas/pagePropertiesImage/kl-areas.jpg.jpg');">
     <h3 >KUALA LUMPUR</h3>
   <div class="transbox">
@@ -23,7 +63,6 @@
      </div>
 </div>
 
-<div class="container" style=" background-image: url('https://images.squarespace-cdn.com/content/v1/5a87961cbe42d637c54cab93/1571338347141-BVVAI15K1GFZS2XP69H8/melaka-malaysia-travel-guide.jpg?format=1000w');">
 <div class="container" name='malacca.jpg' style=" background-image: url('https://images.squarespace-cdn.com/content/v1/5a87961cbe42d637c54cab93/1571338347141-BVVAI15K1GFZS2XP69H8/melaka-malaysia-travel-guide.jpg?format=1000w');">
     <h3 >MALACCA</h3>
   <div class="transbox">
@@ -31,7 +70,6 @@
   </div>
 </div>
 
-<div class="container" style=" background-image: url('https://www.caridestinasi.com/wp-content/uploads/2016/04/senarai-tempat-menarik-cameron-highlands.jpg');">
 <div class="container" name='pahang.jpg' style=" background-image: url('https://www.caridestinasi.com/wp-content/uploads/2016/04/senarai-tempat-menarik-cameron-highlands.jpg');">
     <h3 >PAHANG</h3>
   <div class="transbox">
@@ -39,7 +77,6 @@
   </div>
 </div>
 
-<div class="container" style=" background-image: url('http://static.asiawebdirect.com/m/kl/portals/penang-ws/shared/teasersL/TOURS/tour-city/teaserMultiLarge/imageHilight/teaser.jpeg.jpg');">
 <div class="container" name='penang.jpg' style=" background-image: url('http://static.asiawebdirect.com/m/kl/portals/penang-ws/shared/teasersL/TOURS/tour-city/teaserMultiLarge/imageHilight/teaser.jpeg.jpg');">
     <h3 >PENANG</h3>
   <div class="transbox">
@@ -47,7 +84,6 @@
   </div>
 </div>
 
-<div class="container" style=" background-image: url('https://assets.nst.com.my/images/articles/HARI_SARAWAK_2021_1633440931.jpg');">
 <div class="container" name='sarawak.jpg' style=" background-image: url('https://assets.nst.com.my/images/articles/HARI_SARAWAK_2021_1633440931.jpg');">
     <h3 >SARAWAK</h3>
   <div class="transbox">
@@ -55,13 +91,12 @@
   </div>
 </div>
 
-<div class="container" style=" background-image: url('https://itc.gov.my/wp-content/uploads/2021/04/Masjid-Kristal-Kuala-Terengganu.jpg');">
 <div class="container" name='terengganu.jpg' style=" background-image: url('https://itc.gov.my/wp-content/uploads/2021/04/Masjid-Kristal-Kuala-Terengganu.jpg');">
     <h3 >TERENGGANU</h3>
   <div class="transbox">
     <p><br>Sitting on the east coast of Peninsular Malaysia, Terengganu is home to lovely mosques, seafood, breathtaking oceans and more.</p>
   </div>
 </div>
-
-</body>
+ 
+ </head>
 </html>
