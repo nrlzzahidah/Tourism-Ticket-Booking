@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width-device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="packages.css">
+    </head>
+<!--Navigation bar-->
+<style>
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #EECECE;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #06365F;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: #579EDC;
+}
+
+.topnav a.active {
+  background-color: #AFA4A4;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+    <ul>
+  <a href="#home">Home</a>
+  <a href="#about">About us</a>
+  <a href="#destinations"class="active">Destinations</a>
+  <a href="#booking">Booking</a>
+  <a href="#contact">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+
+<body>
+
+    <section class="hero-image">
+        <div class="hero-text">
+            <h1>DESTINATIONS</h1>
+            <div class="search-container">
+                <form action="/action_page.php">
+                  <input type="text" placeholder="Search.." name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+              </div>
+        </div>
+        </section>
+        <!--Body Image-->
+
+        <div class="md">
+
+            <div class="az">
+
+        <div class="container">
+            <div class="box">
+                <div class="imgbox">
+                    <img src="images/sunway3.jpg" alt="">
+                </div>
+        <div class="det">
+            <div class="con">
+                <h2> Kuala Lumpur </h2>
+                <p> Kuala Lumpur is the official Federal Territory of Kuala Lumpur, it is a federal territory and the capital city of Malaysia.</p>
+            </div>
+        </div>
+        <div class="pack">
+
+            <h4> <a href="#">2 Days 1 Night Special Kuala Lumpur Tour Packages</a></h4>
+            <hr style="height:5px; background-color: #0d9fb9;">
+            <a href="#">
+                <p id="ja" class="bb"></p></a>
+                <a href="#">
+                    <p id="j" class="bb"></p></a>
+                    <button id="but">PACKAGES</button>
+                    <h3>FROM RM 188</h3>
+            </div>
+            </div>
+
+            <div class="box">
+                <div class="imgbox">
+                    <img src="images/penang1.jpg" alt="">
+                </div>
+                <div class="det">
+                    <div class="con">
+                        <h2> Penang </h2>
+                        <p> Most Popular Attractions in Penang. ESCAPE Penang is the fun destination with exciting rides and games hosted in a natural environment.</p>
+                    </div>
+                </div>
+            <div class="pack">
+
+                <h4> <a href="#">Special Packages at ESCAPE Penang</a></h4>
+                <hr style="height:5px; background-color: #0d9fb9;">
+                <a href="#">
+                    <p id="a" class="bb"></p></a>
+                    <a href="#">
+                        <p id="b" class="bb"></p></a>
+                        <button id="bu">PACKAGES</button>
+                        <h3>FROM RM 179</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgbox">
+                    <img src="images/famosa2.jpg" alt="">
+                </div>
+                <div class="det">
+                    <div class="con">
+                        <h2> Malacca </h2>
+                        <p> Malacca City (also spelled Melaka) is the capital of the coastal state of Malacca, in southwestern Malaysia.</p>
+                    </div>
+                </div>
+            <div class="pack">
+
+                <h4> <a href="#">1 Day at A'Famosa Safari Wonderland in Melaka.</a></h4>
+                <hr style="height:5px; background-color: #0d9fb9;">
+                <a href="#">
+                    <p id="jc" class="bb"></p></a>
+                    <a href="#">
+                        <p id="c" class="bb"></p></a>
+                        <button id="bc">PACKAGES</button>
+                        <h3>FROM RM 159</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgbox">
+                    <img src="images/genting1.jpg" alt="">
+                </div>
+                <div class="det">
+                    <div class="con">
+                        <h2> Genting Highlands </h2>
+                        <p> Genting Highlands is a hill station city located on the peak of Mount Ulu Kali in Malaysia at 1,800 meters elevation. A large portion of the area is located in the state of Pahang, and another small portion is located in the state of Selangor.</p>
+                    </div>
+                </div>
+            <div class="pack">
+
+                <h4> <a href="#">2 Days 1 Night at Resort World Genting</a></h4>
+                <hr style="height:5px; background-color: #0d9fb9;">
+                <a href="#">
+                    <p id="jd" class="bb"></p></a>
+                    <a href="#">
+                        <p id="d" class="bb"></p></a>
+                        <button id="bd">PACKAGES</button>
+                        <h3>FROM RM 599</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgbox">
+                    <img src="images/kinabalu.jpg" alt="">
+                </div>
+                <div class="det">
+                    <div class="con">
+                        <h2> Sabah </h2>
+                        <p> Sabah is a Malaysian state occupying the northern part of the island of Borneo. It's famed for its 4,095m-tall Mount Kinabalu, the country’s highest peak, crowned with distinctive granite spires.</p>
+                    </div>
+                </div>
+
+            <div class="pack">
+
+                <h4> <a href="#">3 Days 2 Nights packages</a></h4>
+                <hr style="height:5px; background-color: #0d9fb9;">
+                <a href="#">
+                    <p id="jx" class="bb"></p></a>
+                    <a href="#">
+                        <p id="x" class="bb"></p></a>
+                        <button id="bx">PACKAGES</button>
+                        <h3>FROM RM 498</h3>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="imgbox">
+                    <img src="images/langkawi1.jpg" alt="">
+                </div>
+                <div class="det">
+                    <div class="con">
+                        <h2> Langkawi </h2>
+                        <p> Langkawi is an archipelago made up of 99 islands on Malaysia’s west coast. Surrounded by turquoise sea, the interior of the main island is a mixture of picturesque paddy fields and jungle-clad hills.</p>
+                    </div>
+                </div>
+
+            <div class="pack">
+
+                <h4> <a href="#">2 Days 1 Night Deal 5 Star Resort Bintang</a></h4>
+                <hr style="height:5px; background-color: #0d9fb9;">
+                <a href="#">
+                    <p id="jz" class="bb"></p></a>
+                    <a href="#">
+                        <p id="z" class="bb"></p></a>
+                        <button id="bz">PACKAGES</button>
+                        <h3>FROM RM 853</h3>
+                </div>
+            </div>
+
+
+        </div>
+            </div>
+        </div>
+<script src="pack.js" charset="UTF-8"></script>
+    
+</body>
+</html>
