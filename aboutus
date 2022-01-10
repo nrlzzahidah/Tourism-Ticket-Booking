@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MYTour</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="aboutus.css">
+</head>
+<body>
+
+    <div class="nav-container">
+        <div class="wrapper">
+            <nav>
+                <div class="logo">
+                    <img src="images/logo.png" alt="">
+                </div>
+
+                <ul class="nav-items">
+                    <li>
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="aboutus.html" class="textclick">About Us</a>
+                    </li>
+                    <li>
+                        <a href="destination.html">Destination</a>
+                    </li>
+                    <li>
+                        <a href="booking.html">Booking</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+    
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="header-container">
+        <div class="wrapper">
+            <header>
+                <div class="hero-content">
+                    <h1>ABOUT US</h1>
+                    <p>
+                        MYTour is a tourism organization that held events and deals for customers to traveling to a different location in Malaysia for either business or pleasure purposes.
+                    </p>
+                    <div class="support-icons">
+                        <div class="logo">
+                            <img src="images/tourism logo.png" height="72">
+                        </div>
+                        <div class="logo">
+                            <img src="images/sdg 8.png" height="72">
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="hero-image">
+                    <img src="images/photo.png" alt="">
+                    <div class="photo-bg"></div>
+                </div>
+
+            </header>
+        </div>
+    </div>
+
+    <!-- End of the header section -->
+
+    <div class="mission-section">
+        <div class="wrapper">
+            <div class="mission">
+                <div class="content">
+                    <div>
+                        <img src="images/fire.svg" alt="">
+                        <h2>OUR MISSION</h2>
+                    </div>
+                    <p>
+                        To share all interesting places in Malaysia and help people to travel with great deals.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <!-- End of mission section-->
+
+    <section class="how-it-works-section">
+        <div class="wrapper">
+            <div class="content">
+                <div>
+                    <img src="images/ask.svg" alt="">
+                    <h2>HOW IT WORKS</h2>
+                </div>
+            </div>
+            
+            <div class="way-icons">
+                <div class="way">
+                    <div class="images">
+                        <div>
+                            <img class="icon" src="images/search.png" alt="">
+
+                        </div>
+                        
+                        <img src="images/arrow.svg" alt="">  
+                    </div>
+                    
+                    <div class="info">
+                        <h3>1. Search</h3>
+                    </div>
+                </div>
+                
+
+                <div class="way">
+                    <div class="images">
+                        <div>
+                            <img class="icon" src="images/book.png" alt="">
+                        </div>                        
+                        <img src="images/arrow.svg" alt="">  
+                    </div>
+                    
+                    <div class="info">
+                        <h3>2. Book</h3>
+                    </div>
+                </div>
+                
+
+                <div class="way">
+                    <div class="images">
+                        <div>
+                            <img class="icon" src="images/pay.png" alt="">
+                        </div>
+                        
+                        <img src="images/arrow.svg" alt="">  
+                    </div>
+                    
+                    <div class="info">
+                        <h3>3. Pay</h3>
+                    </div>
+                </div>
+                
+                <div class="way">
+                    <div class="images">
+                        <img class="icon" src="images/done.png" alt="">  
+                    </div>
+                            
+                    <div class="info">
+                        <h3>4. Done!</h3>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- End of how-it-works section-->
+            
+    <script src="main.js"></script>
+</body>
+</html>
